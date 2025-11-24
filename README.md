@@ -9,8 +9,6 @@ To validate the design, a **sorting algorithm implemented in RISC-V assembly** w
 
 # 📌 **Processor Architecture**
 
-Add your diagram here:
-
 
 ![Processor Architecture](utils/DIAGRAM.PNG)
 
@@ -177,7 +175,6 @@ Resolved using left shifts (`slli`) for word-aligned addresses.
 * Support MUL/DIV instructions
 * Floating-point pipeline (RV64F/RV64D)
 * Superscalar version
-
 ---
 
 # 📚 Conclusion
@@ -185,6 +182,7 @@ Resolved using left shifts (`slli`) for word-aligned addresses.
 The project successfully demonstrates a modular **5-stage pipelined RISC-V processor** that can execute real assembly programs with correct hazard handling and pipeline behavior.
 The sorting program verifies the processor under nested branching, memory operations, and data hazards, proving the robustness of the design.
 
+Reference: Harris, D., & Harris, S. (2010). Digital design and computer architecture. Morgan Kaufmann
+
 ---
 
-Just tell me!
